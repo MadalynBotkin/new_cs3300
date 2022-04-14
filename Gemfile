@@ -67,6 +67,7 @@ group :test do
   gem 'chromedriver-helper'
   #SimpleCov
   gem 'simplecov', require: false
+  gem 'factory_bot_rails'
 
 end
 
