@@ -9,7 +9,7 @@ RSpec.feature "Projects", type: :feature do
   #pending "add some scenarios (or delete) #{__FILE__}"
   context "Create new project" do
     before(:each) do
-      login_user
+      #login_user
       visit new_project_path
       within("form") do
         fill_in "Title", with: "Test title"
